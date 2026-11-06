@@ -25,7 +25,9 @@ def main():
 
         # If the user enters 0, the sum is 0
         elif user_number_int == 0:
-            print(f"The sum of total numbers from 0 to {user_number_int} is {total_number}.")
+            print(
+                f"The sum of total numbers from 0 to {user_number_int} is {total_number}."
+            )
 
         # If it's a valid positive integer, run the while loop
         else:
